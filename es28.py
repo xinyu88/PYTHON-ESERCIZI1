@@ -11,15 +11,15 @@ lista = {
 }
 print(lista)
 
-#il vincitore dovrebbe essere giulio
+#il vincitore è giulio
 
-if lista["marco"] > lista["camilla"] and lista["fabio"] and lista["giulio"] :
+if lista["marco"] > lista["camilla"] > lista["fabio"] > lista["giulio"] :
     print("il vincitore è marco con 2.0 come valore max ")
 
-if lista["camilla"] > lista["marco"] and lista["fabio"] and lista["giulio"] :
+elif lista["camilla"] > lista["marco"] > lista["fabio"] > lista["giulio"] :
     print("il vincitore è camilla con 1.2 come valore max")
 
-if lista["fabio"] > lista["camilla"] and lista["marco"] and lista["giulio"] :
+elif lista["fabio"] > lista["camilla"] > lista["marco"] > lista["giulio"] :
     print("il vincitore è fabio con 2.5 come valore max  ")
 
 else : 
